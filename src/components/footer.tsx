@@ -6,12 +6,9 @@ import EmailSVG from 'public/email.svg'
 
 export default function Footer() {
     return (
-        <footer className="footer footer-center px-10 pt-4 pb-8 bg-base-200 text-base-content rounded">
-            <nav className="grid grid-flow-col gap-4 -mb-4">
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+        <footer className="footer footer-center px-10 pt-4 pb-8 bg-[#fcf9ed] shadow-[0_-2px_4px_rgba(0,0,0,0.3)]">
+            <nav className="grid grid-flow-col gap-4 -mb-4 text-xl">
+                Contact Me
             </nav>
             <nav>
                 <div className="flex flex-row items-center justify-around gap-8">
