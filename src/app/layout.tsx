@@ -1,4 +1,4 @@
-import './globals.css'
+import '../styles/globals.css'
 import type { Metadata } from 'next'
 import { Roboto_Slab } from 'next/font/google'
 import Header from "@/components/header";
@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-      <Header />
-      {children}
-      <Footer />
+          <Header />
+          {children}
+          <Footer />
       </body>
     </html>
   )

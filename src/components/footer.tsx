@@ -6,7 +6,7 @@ import EmailSVG from 'public/email.svg'
 
 export default function Footer() {
     return (
-        <footer className="footer footer-center px-10 pt-4 pb-8 bg-[#fcf9ed] shadow-[0_-2px_4px_rgba(0,0,0,0.3)]">
+        <footer className="footer footer-center px-10 pt-4 pb-8 bg-[#fcf9ed] shadow-[0_-5px_4px_rgba(0,0,0,0.3)]">
             <nav className="grid grid-flow-col gap-4 -mb-4 text-xl">
                 Contact Me
             </nav>

@@ -4,15 +4,19 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <div className="navbar bg-[#fcf4d2] text-5xl shadow-md">
-            <Link href={'/'} className="flex-1 text-sm gap-1">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                    <div className="w-10 rounded-full">
-                        <Image src="/profile.jpg" alt="profile" width={500} height={500}/>
-                    </div>
+        <div className="navbar bg-[#fcf4d2] text-5xl fixed top-0 shadow-md z-30">
+            <div className="flex-1">
+                <label className="swap swap-flip">
+                    {/* this hidden checkbox controls the state */}
+                    <input type="checkbox" />
+                    <div className="swap-on w-10"><Image className="rounded-full" src="/profile.jpg" alt="profile" width={500} height={500}/></div>
+                    <div className="swap-off w-10"><Image className="rounded-full" src="/profile.jpg" alt="profile" width={500} height={500}/></div>
                 </label>
-                Benjamin Li
-            </Link>
+                <Link href={'/'} className="text-sm gap-1 btn btn-ghost">
+                    Benjamin Li
+                </Link>
+            </div>
+
             <div className="flex-none">
                 <a className='-mt-2 scroll-smooth' href={'#about'}>
                     <button className="btn btn-ghost">
