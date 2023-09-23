@@ -18,11 +18,11 @@ const TechStack = () => {
         }
     }
     return (
-        <div className="flex flex-row justify-between items-center gap-10">
-            <div className="flex flex-col justify-between items-center gap-5 sm:pt-10 md:pt-0">
+        <div className="pt-2 flex flex-col md:flex-row justify-between md:justify-between md:items-center gap-10">
+            <div className="flex flex-col justify-between items-center gap-5 sm:pt-6 md:pt-0">
                 <h2 className="font-bold text-xl">My Tech Stack 🦉</h2>
                 <div>See my skill set!</div>
-                <div className="tabs tabs-boxed">
+                <div className="tabs tabs-boxed flex flex-col items-center md:flex-row md:justify-center">
                     <a className="tab w-30 tab-active" id="lang" onClick={() => {selectDisplay("lang")}}>Languages</a>
                     <a className="tab w-30" id="frame" onClick={() => {selectDisplay("frame")}}>Frameworks</a>
                     <a className="tab w-30 sm:px-8" id="tool" onClick={() => {selectDisplay("tool")}}>Tools</a>

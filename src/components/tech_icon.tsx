@@ -1,4 +1,4 @@
-import Image, {StaticImageData} from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import { FunctionComponent } from "react";
 const TechIcon:FunctionComponent<{ source:StaticImageData, style:string }> = ({ source, style }) => {
     return (
