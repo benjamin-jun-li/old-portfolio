@@ -6,8 +6,8 @@ const LaptopWrapper:FunctionComponent<{ source:StaticImageData }> = ( { source }
         <div className="w-full">
             <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
                 <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
-                    <Image src={source} height={100} width={100} className="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl" alt="overview" />
-                    <Image src={source} height={100} width={100} className="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg" alt="overview" />
+                    <Image src={source} height={1080} width={1920} className="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl" alt="overview" />
+                    <Image src={source} height={1080} width={1920} className="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg" alt="overview" />
                 </div>
             </div>
             <div className="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">

@@ -1,25 +1,26 @@
 import Image from "next/image"
 import Showcase from "@/components/showcase";
 import DevelopingSVG from "/public/developing.svg"
+import GlobalPayShot from "/public/gp_screenshot.png"
 const ProjectBoard = () => {
     const projects_data = [
         {
+            title: "Global Pay",
+            img: GlobalPayShot,
+            detail: "A NextJS Front-End Project Developed during an internship at AwardGlobal",
+            tech: ["NextJS", "Tailwind CSS", "Ant-Design"]
+        },
+        {
             title: "Bigbrain",
             img: DevelopingSVG,
-            detail: "A react quiz platform",
-            tech: ["react", "Ant-Design"]
+            detail: "A React quiz platform inspired by Kahoot during COMP6080(Web Front-End Programming)",
+            tech: ["React", "MaterialUI", "Cypress"]
         },
         {
-            title: "Global Pay",
+            title: "LurkForWork",
             img: DevelopingSVG,
-            detail: "A NextJS website",
-            tech: ["NextJS", "Ant-Design"]
-        },
-        {
-            title: "Global Pay",
-            img: DevelopingSVG,
-            detail: "A NextJS website",
-            tech: ["NextJS", "Ant-Design"]
+            detail: "A job sharing website during COMP6080(Web Front-End Programming)",
+            tech: ["VanillaJS", "Bootstrap"]
         }
     ]
     return (

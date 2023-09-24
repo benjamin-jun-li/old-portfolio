@@ -18,20 +18,20 @@ const TechStack = () => {
         }
     }
     return (
-        <div className="pt-2 grid grid-cols-1 md:grid-cols-2 place-items-center gap-10">
-            <div className="flex flex-col justify-between items-center gap-5 sm:pt-6 md:pt-0">
+        <section className="pt-2 flex flex-col md:flex-row gap-x-[15%] justify-center items-center">
+            <div className="gap-5 pb-5 sm:pt-6 md:pb-0 md:pt-0 grid grid-cols-1">
                 <h2 className="font-bold text-xl">My Tech Stack 🦉</h2>
                 <div>See my skill set!</div>
-                <div className="tabs tabs-boxed flex flex-col items-center md:flex-row md:justify-center">
-                    <a className="tab w-30 tab-active" id="lang" onClick={() => {selectDisplay("lang")}}>Languages</a>
-                    <a className="tab w-30" id="frame" onClick={() => {selectDisplay("frame")}}>Frameworks</a>
-                    <a className="tab w-30 sm:px-8" id="tool" onClick={() => {selectDisplay("tool")}}>Tools</a>
-                </div>
+                <ul className="md:w-35 tabs tabs-boxed flex flex-col items-center md:flex-row md:justify-center bg-gray-700">
+                    <li><a className="tab w-30 tab-active" id="lang" onClick={() => {selectDisplay("lang")}}>Languages</a></li>
+                    <li><a className="tab w-30" id="frame" onClick={() => {selectDisplay("frame")}}>Frameworks</a></li>
+                    <li><a className="tab w-30 sm:px-8" id="tool" onClick={() => {selectDisplay("tool")}}>Tools</a></li>
+                </ul>
             </div>
             {display === "lang" ? <LangCollection /> : <></>}
             {display === "frame" ? <FrameCollection /> : <></>}
             {display === "tool" ? <ToolCollection /> : <></>}
-        </div>
+        </section>
     )
 }
 

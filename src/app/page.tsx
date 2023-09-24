@@ -8,10 +8,10 @@ export default function Home() {
             <div>
                 <h1 className="text-3xl">Hey I&apos;m Benjamin!</h1>
                 <p className="pt-3">
-                    I am an IT student at UNSW, based in Australia.🦘 <br/>
+                    I am an IT student at UNSW, based in Australia. 🦘<br/>
                     I love software development. 🔎<br/>
                     I enjoy experimenting new stuff in front-end development 🌌<br/>
-                    I am always eager to learn and grow.🙂
+                    I am always eager to learn and grow. 🙂
                 </p>
             </div>
         </section>
