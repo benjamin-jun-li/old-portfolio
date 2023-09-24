@@ -24,7 +24,7 @@ const ProjectBoard = () => {
     ]
     return (
         <section className="mt-4 md:mt-10">
-            <div className="flex flex-col sm:flex-row sm:justify-evenly items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                 <h2 className="text-xl font-bold">Projects</h2>
                 <Image src={DevelopingSVG} alt={"developing"} width={120} height={120}/>
             </div>

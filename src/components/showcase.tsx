@@ -11,7 +11,7 @@ interface ShowcaseProps {
 
 const Showcase:FunctionComponent<ShowcaseProps> = ({source, title, detail, tech}) => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-2 place-content-stretch">
             <LaptopWrapper source={source}/>
             <div className="w-full flex flex-col justify-center items-center sm:pl-2">
                 <h3>{title}</h3>

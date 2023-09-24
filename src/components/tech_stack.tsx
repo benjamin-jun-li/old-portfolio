@@ -18,7 +18,7 @@ const TechStack = () => {
         }
     }
     return (
-        <div className="pt-2 flex flex-col md:flex-row justify-between md:justify-between md:items-center gap-10">
+        <div className="pt-2 grid grid-cols-1 md:grid-cols-2 place-items-center gap-10">
             <div className="flex flex-col justify-between items-center gap-5 sm:pt-6 md:pt-0">
                 <h2 className="font-bold text-xl">My Tech Stack 🦉</h2>
                 <div>See my skill set!</div>
