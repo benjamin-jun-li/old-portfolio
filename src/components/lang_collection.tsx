@@ -12,7 +12,7 @@ import RIcon from 'public/r.svg'
 const LangCollection = () => {
     return (
         <div>
-            <div className="avatar flex flex-row pl-7 -mb-2">
+            <div className="avatar flex flex-row pl-6 md:pl-8 -mb-2">
                 <TechIcon source={JavaScriptIcon} style={"bg-amber-300"}/>
                 <TechIcon source={TypeScriptIcon} style={""}/>
                 <TechIcon source={BashIcon} style={"bg-slate-200"}/>
@@ -23,7 +23,7 @@ const LangCollection = () => {
                 <TechIcon source={GccIcon} style={""}/>
                 <TechIcon source={CppIcon} style={""}/>
             </div>
-            <div className="avatar flex flex-row pl-7">
+            <div className="avatar flex flex-row pl-6 md:pl-8">
                 <TechIcon source={PgsqlIcon} style={"bg-slate-200"}/>
                 <TechIcon source={PythonIcon} style={"bg-slate-200"}/>
                 <TechIcon source={RIcon} style={"bg-slate-200"}/>

@@ -1,19 +1,20 @@
 import Image from 'next/image'
 import { FileJson2, PocketKnife, UserSquare2 } from 'lucide-react'
 import Link from "next/link";
+import Logo from "/public/logo.png"
 
 export default function Header() {
     return (
-        <div className="navbar flex-row justify-between bg-[#fcf4d2] md:text-3xl fixed top-0 shadow-md !z-30">
-            <div className="">
+        <header className="navbar flex-row justify-between bg-[#fcf4d2] md:text-3xl fixed top-0 shadow-md !z-30">
+            <div>
                 <label className="swap swap-flip">
                     {/* this hidden checkbox controls the state */}
                     <input type="checkbox" />
                     <div className="swap-on w-10"><Image className="rounded-full" src="/profile.jpg" alt="profile" width={500} height={500}/></div>
                     <div className="swap-off w-10"><Image className="rounded-full" src="/profile.jpg" alt="profile" width={500} height={500}/></div>
                 </label>
-                <Link href={'/'} className="text-sm gap-1 btn btn-ghost">
-                    Benjamin Li
+                <Link href={'/'} className="scroll-smooth ml-2">
+                    <Image className="w-[6rem] h-[2rem] md:w-[9rem] md:h-[2.5rem]" src={Logo} alt="logo" width={1379} height={390}/>
                 </Link>
             </div>
 
@@ -48,6 +49,6 @@ export default function Header() {
                     </button>
                 </Link>
             </div>
-        </div>
+        </header>
     )
 }

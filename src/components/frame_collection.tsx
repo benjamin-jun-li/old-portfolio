@@ -10,7 +10,7 @@ import WpIcon from 'public/wordpress.svg'
 const FrameCollection = () => {
     return (
         <div>
-            <div className="avatar flex flex-row pl-7 -mb-2">
+            <div className="avatar flex flex-row pl-6 md:pl-8 -mb-2">
                 <TechIcon source={NextIcon} style={"bg-slate-200"}/>
                 <TechIcon source={TailwindIcon} style={"bg-slate-200"}/>
                 <TechIcon source={ReactIcon} style={"bg-slate-200"}/>
@@ -21,7 +21,7 @@ const FrameCollection = () => {
                 <TechIcon source={CyIcon} style={"bg-slate-200"}/>
                 <TechIcon source={TailwindIcon} style={"bg-slate-200 invisible"}/>
             </div>
-            <div className="avatar flex flex-row pl-7">
+            <div className="avatar flex flex-row pl-6 md:pl-8">
                 <TechIcon source={WpIcon} style={"bg-slate-200"}/>
                 <TechIcon source={RestIcon} style={"bg-slate-200"}/>
                 <TechIcon source={MuiIcon} style={"bg-slate-200"}/>

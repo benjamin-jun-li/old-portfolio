@@ -6,7 +6,7 @@ import AwsIcon from 'public/aws.svg'
 const ToolCollection = () => {
     return (
         <div>
-            <div className="avatar flex flex-row pl-7 -mb-2">
+            <div className="avatar flex flex-row pl-6 md:pl-8 -mb-2">
                 <TechIcon source={FigmaIcon} style={"invisible"}/>
                 <TechIcon source={GitIcon} style={"bg-slate-200"}/>
                 <TechIcon source={FigmaIcon} style={"invisible"}/>
@@ -17,7 +17,7 @@ const ToolCollection = () => {
                 <TechIcon source={FigmaIcon} style={"bg-slate-200"}/>
                 <TechIcon source={FigmaIcon} style={"invisible"}/>
             </div>
-            <div className="avatar flex flex-row pl-7">
+            <div className="avatar flex flex-row pl-6 md:pl-8">
                 <TechIcon source={FigmaIcon} style={"invisible"}/>
                 <TechIcon source={JiraIcon} style={"bg-slate-200"}/>
                 <TechIcon source={FigmaIcon} style={"invisible"}/>
