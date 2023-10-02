@@ -3,6 +3,8 @@ import Showcase from "@/components/showcase";
 import DevelopingSVG from "/public/developing.svg"
 import GlobalPayShot from "/public/gp_screenshot.png"
 import PortfolioScreenshot from "/public/portfolio_screenshot.png"
+import LurkforworkScreenshot from "/public/lurkforwork_screenshot.png"
+import Bigbrain_screenshot from "/public/bigbrain_screenshot.png"
 const ProjectBoard = () => {
     const projects_data = [
         {
@@ -19,13 +21,13 @@ const ProjectBoard = () => {
         },
         {
             title: "Bigbrain",
-            img: DevelopingSVG,
+            img: Bigbrain_screenshot,
             detail: "A React quiz platform inspired by Kahoot during COMP6080(Web Front-End Programming)",
             tech: ["React", "MaterialUI", "Cypress"]
         },
         {
             title: "LurkForWork",
-            img: DevelopingSVG,
+            img: LurkforworkScreenshot,
             detail: "A job sharing website during COMP6080(Web Front-End Programming)",
             tech: ["VanillaJS", "Bootstrap"]
         }
