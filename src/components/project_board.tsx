@@ -11,25 +11,29 @@ const ProjectBoard = () => {
             title: "Global Pay",
             img: GlobalPayShot,
             detail: "A NextJS Front-End Project Developed during an internship at AwardGlobal",
-            tech: ["NextJS", "Tailwind CSS", "Ant-Design"]
+            tech: ["NextJS", "Tailwind CSS", "Ant-Design"],
+            url: "https://www.global-pay.com.au/"
         },
         {
             title: "Web Portfolio",
             img: PortfolioScreenshot,
             detail: "This website",
-            tech: ["NextJS", "Tailwind CSS", "TypeScript"]
+            tech: ["NextJS", "Tailwind CSS", "TypeScript"],
+            url: "/"
         },
         {
             title: "Bigbrain",
             img: Bigbrain_screenshot,
             detail: "A React quiz platform inspired by Kahoot during COMP6080(Web Front-End Programming)",
-            tech: ["React", "MaterialUI", "Cypress"]
+            tech: ["React", "MaterialUI", "Cypress"],
+            url: "https://ben-bigbrain-site.vercel.app/"
         },
         {
             title: "LurkForWork",
             img: LurkforworkScreenshot,
             detail: "A job sharing website during COMP6080(Web Front-End Programming)",
-            tech: ["VanillaJS", "Bootstrap"]
+            tech: ["VanillaJS", "Bootstrap"],
+            url: "https://ben-lurkforwork.vercel.app/"
         }
     ]
     return (
@@ -41,7 +45,8 @@ const ProjectBoard = () => {
             <hr className="max-w-[20rem] h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
             <div className="mt-3">
                 {projects_data.map((project, index) => (
-                    <Showcase key={index} title={project.title} source={project.img} detail={project.detail} tech={project.tech}/>
+                    <Showcase key={index} title={project.title} source={project.img}
+                              detail={project.detail} tech={project.tech} siteUrl={project.url}/>
                 ))}
             </div>
         </section>
