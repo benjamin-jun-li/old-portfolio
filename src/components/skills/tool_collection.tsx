@@ -1,4 +1,4 @@
-import TechIcon from "@/components/tech_icon";
+import TechIcon from "@/components/skills/tech_icon";
 import GitIcon from 'public/git.svg'
 import JiraIcon from 'public/jira.svg'
 import FigmaIcon from 'public/figma.svg'

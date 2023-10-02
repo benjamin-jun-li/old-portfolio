@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import { StaticImageData } from 'next/image';
-import TechContainer from "@/components/tech_container";
-import LaptopWrapper from "@/components/laptop_wrapper";
+import TechContainer from "@/components/projects/tech_container";
+import LaptopWrapper from "@/components/projects/laptop_wrapper";
 import Link from "next/link";
 
 interface ShowcaseProps {

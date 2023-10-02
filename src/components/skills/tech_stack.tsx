@@ -1,7 +1,7 @@
 'use client'
-import LangCollection from "@/components/lang_collection";
-import FrameCollection from "@/components/frame_collection";
-import ToolCollection from "@/components/tool_collection";
+import LangCollection from "@/components/skills/lang_collection";
+import FrameCollection from "@/components/skills/frame_collection";
+import ToolCollection from "@/components/skills/tool_collection";
 import { useState } from 'react'
 const TechStack = () => {
     const [display, setDisplay] = useState<string>("lang")

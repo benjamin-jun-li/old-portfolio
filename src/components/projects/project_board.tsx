@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Showcase from "@/components/showcase";
+import Showcase from "@/components/projects/showcase";
 import DevelopingSVG from "/public/developing.svg"
 import GlobalPayShot from "/public/gp_screenshot.png"
 import PortfolioScreenshot from "/public/portfolio_screenshot.png"

@@ -1,4 +1,4 @@
-import TechIcon from "@/components/tech_icon";
+import TechIcon from "@/components/skills/tech_icon";
 import NextIcon from 'public/next.svg'
 import TailwindIcon from 'public/tailwind.svg'
 import ReactIcon from 'public/react.svg'

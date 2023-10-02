@@ -1,5 +1,5 @@
-import TechStack from "@/components/tech_stack";
-import ProjectBoard from "@/components/project_board";
+import TechStack from "@/components/skills/tech_stack";
+import ProjectBoard from "@/components/projects/project_board";
 
 export default function Home() {
   return (

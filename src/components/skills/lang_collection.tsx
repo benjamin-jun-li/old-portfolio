@@ -1,4 +1,4 @@
-import TechIcon from "@/components/tech_icon";
+import TechIcon from "@/components/skills/tech_icon";
 import JavaScriptIcon from 'public/javascript.svg'
 import GccIcon from 'public/gcc.svg'
 import CppIcon from 'public/c++.svg'
