@@ -33,7 +33,7 @@ const ProjectBoard = () => {
             img: LurkforworkScreenshot,
             detail: "A job sharing website during COMP6080(Web Front-End Programming)",
             tech: ["VanillaJS", "Bootstrap"],
-            url: "https://ben-lurkforwork.vercel.app/"
+            url: ""
         }
     ]
     return (

@@ -18,7 +18,9 @@ const Showcase:FunctionComponent<ShowcaseProps> = ({source, title, detail, tech,
             <article className="mt-2 flex flex-col md:flex-row justify-center items-center">
                 <LaptopWrapper source={source}/>
                 <div className="w-full flex flex-col justify-center items-center px-2 md:px-0">
-                    <Link className="text-2xl" href={siteUrl} target="_blank">{title}</Link>
+                    {siteUrl !== "" ?
+                        (<Link className="text-2xl" href={siteUrl}>{title}</Link>) :
+                        (<h3 className="text-2xl">{title}</h3>)}
                     <p className="text-gray-800/75 max-w-[80%]">{detail}</p>
                     <div className="flex flex-wrap justify-center items-center gap-4 mt-1">
                         {tech.map((te, index) => (

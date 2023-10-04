@@ -1,5 +1,6 @@
 import TechStack from "@/components/skills/tech_stack";
 import ProjectBoard from "@/components/projects/project_board";
+import ExperienceBoard from "@/components/experience/experienceBoard";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         </article>
         <article id="projects" className="w-full">
             <ProjectBoard />
+        </article>
+        <article id="experience" className="hidden">
+            <ExperienceBoard />
         </article>
     </main>
   )
